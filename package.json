@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "PORT=$PORT node index.js"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
@@ -12,3 +12,4 @@
     "openai": "^3.2.1"
   }
 }
+
